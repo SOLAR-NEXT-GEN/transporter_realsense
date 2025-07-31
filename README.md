@@ -38,9 +38,11 @@ sudo apt update && sudo apt install -y \
 
 ### Clone and checkout stable version
 ```bash
-git clone https://github.com/IntelRealSense/librealsense.git ~/librealsense
+git clone https://github.com/IntelRealSense/librealsense.git 
 cd ~/librealsense
 git checkout v2.51.1
+or
+git checkout v2.53.1
 ```
 
 ### Build with T265 support
